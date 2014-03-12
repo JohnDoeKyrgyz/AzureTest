@@ -2,7 +2,6 @@
 
 open System
 open System.Web
-open System.Web.Http
 open System.Web.Mvc
 open System.Web.Routing
 ///All configuration information
@@ -14,7 +13,7 @@ module Configuration =
         id : UrlParameter }
 
     type WebApiDefaults = {
-        id : RouteParameter
+        id : UrlParameter
     }
 
     /// Sets up routing for the application
